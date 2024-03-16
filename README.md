@@ -12,28 +12,28 @@ Witaj w moim repozytorium! Tutaj znajdziesz różnorodne projekty i prace, nad k
 
 ---
 
-## Bezpieczna architektura sieci oraz audyt bezpieczenstwa
+## 1. Bezpieczna architektura sieci oraz audyt bezpieczenstwa
 
 Celem zadania było zaplanowanie bezpiecznej architektury sieci wykorzystując rozwiązania sieciowe i usługi bezpieczeństwa wraz z implementacją rozwiązania, a nastepnie przeprowadzeniem audytu zgodnego z NIST Cybersecurity Framework.
-## Analiza Incident Response
+## 2. Analiza Incident Response
 
 Zadanie polegało na analizie Incident Response próbek dla otrzymanego cyberataku, tzn. okreslenie w ramach mozliwosci przebiegu ataku oraz klasyfikacje za pomoca katalogu MITRE wykorzystanych technik w ramach ataku.
 
-## System w architekturze mikrouslug z uzyciem technologii .NET
+## 3. System w architekturze mikrouslug z uzyciem technologii .NET
 
 Projekt polegający na opracowaniu prostego, ale kompletnego systemu end-to-end, składającego się z 
 aplikacji serwerowej złożonej z minimalnej liczby mikrousług oraz aplikacji klienckiej internetowej, realizowany w dwoch małych (domyślnie 2-osobowych) zespołach zgodnie z metodyka AGILE.
 
-## Stworzenie bazy danych i dedykowanej jej aplikacji
+## 4. Stworzenie bazy danych i dedykowanej jej aplikacji
 
 Projekt polegal na zaprojektowaniu bazy danych i stworzeniu podstawowej aplikacji graficznej klienckiej, współpracującej z utworzona baza danych. 
 
-## Inżynieria wsteczna złośliwego oprogramowania
+## 5. Inżynieria wsteczna złośliwego oprogramowania
 
 Zadanie polegalo na przeporwadzeniu inzynierii wstecznej zlosliwego oprogramownia ukrytego w pliku .docm
 
 
-## Inne Prace
+## 6. Inne Prace
 
 - Praktycznie zadania z zakresu znajmosci i wykorzystania protokolow sieciowych
 
