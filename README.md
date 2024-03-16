@@ -8,7 +8,8 @@ Witaj w moim repozytorium! Tutaj znajdziesz różnorodne projekty i prace, nad k
 2. Analiza Incident Response
 3. System w architekturze mikrouslug z uzyciem technologii .NET
 4. Baza danych i dedykowanej jej aplikacji
-5. Inne Prace
+5. Inżynieria wsteczna złośliwego oprogramowania
+6. Inne Prace
 
 ---
 
