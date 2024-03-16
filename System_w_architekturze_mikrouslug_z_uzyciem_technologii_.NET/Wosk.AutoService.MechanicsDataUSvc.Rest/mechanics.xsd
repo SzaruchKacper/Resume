@@ -1,0 +1,19 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:net="http://tempuri.org/mechanics.xsd" targetNamespace="http://tempuri.org/mechanics.xsd" elementFormDefault="qualified" version="1.0">
+
+	<xsd:element name="Mechanics" type="net:Mechanics" />
+
+	<xsd:complexType name="Mechanics">
+		<xsd:sequence>
+			<xsd:element name="Mechanic" type="net:Mechanic" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:attribute name="modified" type="xsd:dateTime" use="required" />
+	</xsd:complexType>
+
+	<xsd:complexType name="Mechanic">
+		<xsd:attribute name="MechanicId" type="xsd:int" use="required" />
+		<xsd:attribute name="Name" type="xsd:string" use="required" />
+		<xsd:attribute name="Surname" type="xsd:string" use="required" />
+		<xsd:attribute name="Pesel" type="xsd:string" use="required" />
+		<xsd:attribute name="RepairsIds" type="xsd:string" use="required" />
+	</xsd:complexType>
+</xsd:schema>

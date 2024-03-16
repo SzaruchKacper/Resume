@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mechanicsdatausvc
+  labels:
+    app: mechanicsdatausvc
+    tier: data-usvc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mechanicsdatausvc
+  template:
+    metadata:
+      labels:
+        app: mechanicsdatausvc
+        tier: data-usvc
+    spec:
+      containers:
+      - name: mechanicsdatausvc
+        image: wosk/wosk.autoservice:mechanicsdatausvc-rest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - mountPath: /app/Data
+          name: wosk-autoserwis-volume
+      imagePullSecrets:
+      - name: docker-secret
+      volumes:
+      - name: wosk-autoserwis-volume
+        persistentVolumeClaim:
+          claimName: wosk-autoserwis-claim

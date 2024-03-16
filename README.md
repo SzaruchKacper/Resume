@@ -23,7 +23,7 @@ Zadanie polegało na analizie Incident Response próbek dla otrzymanego cyberata
 ## 3. System w architekturze mikrouslug z uzyciem technologii .NET
 
 Projekt polegający na opracowaniu prostego, ale kompletnego systemu end-to-end, składającego się z 
-aplikacji serwerowej złożonej z minimalnej liczby mikrousług oraz aplikacji klienckiej internetowej, realizowany w dwoch małych (domyślnie 2-osobowych) zespołach zgodnie z metodyka AGILE.
+aplikacji serwerowej złożonej z minimalnej liczby mikrousług oraz aplikacji klienckiej internetowej, realizowany w dwoch małych (domyślnie 2-osobowych) zespołach zgodnie z metodyka AGILE. (repozytorium zawiera tylko jedna mikrousluge z calego systemu ktora zostala stworzona tylko przeze mnie)
 
 ## 4. Stworzenie bazy danych i dedykowanej jej aplikacji
 

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Kacper  Szaruch</Authors>
+    <Company>Wosk</Company>
+    <Product>AutoSerwis</Product>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wosk.AutoService.MechanicsDataUSvc.Rest.Model\Wosk.AutoService.MechanicsDataUSvc.Rest.Model.csproj" />
+  </ItemGroup>
+
+</Project>

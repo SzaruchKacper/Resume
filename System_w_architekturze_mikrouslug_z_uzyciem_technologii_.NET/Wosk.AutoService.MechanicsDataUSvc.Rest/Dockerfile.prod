@@ -1,0 +1,15 @@
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+LABEL stage=wosk-autoservice-mechanicsdatausvc_build
+WORKDIR /src
+COPY . .
+WORKDIR "/src/Wosk.AutoService.MechanicsDataUSvc.Rest"
+RUN dotnet restore
+RUN dotnet build -c Release -o /app/build
+RUN dotnet publish -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "Wosk.AutoService.MechanicsDataUSvc.Rest.dll"]
