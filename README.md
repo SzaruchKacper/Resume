@@ -9,7 +9,8 @@ Witaj w moim repozytorium! Tutaj znajdziesz różnorodne projekty i prace, nad k
 3. System w architekturze mikrousług z użyciem technologii .NET
 4. Baza danych i dedykowanej jej aplikacji
 5. Inżynieria wsteczna złośliwego oprogramowania
-6. Inne Prace
+6. Hacktoria
+7. Inne Prace
 
 ---
 
@@ -33,8 +34,11 @@ Projekt polegający na zaprojektowaniu bazy danych i stworzeniu podstawowej apli
 
 Zadanie polegało na przeprowadzeniu inżynierii wstecznej złośliwego oprogramowania ukrytego w pliku .docm
 
+## 6. Hacktoria
 
-## 6. Inne Prace
+Zadania skupiające się na nauce technik OSINT-owych, ale również poruszające zagadnienia kryptografii i digital forensic
+
+## 7. Inne Prace
 
 - Praktycznie zadania z zakresu znajomości i wykorzystania protokołów sieciowych
 
