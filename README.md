@@ -10,7 +10,8 @@ Witaj w moim repozytorium! Tutaj znajdziesz różnorodne projekty i prace, nad k
 4. Baza danych i dedykowanej jej aplikacji
 5. Inżynieria wsteczna złośliwego oprogramowania
 6. Hacktoria
-7. Inne Prace
+7. Sourcing Games
+8. Inne Prace
 
 ---
 
@@ -38,7 +39,11 @@ Zadanie polegało na przeprowadzeniu inżynierii wstecznej złośliwego oprogram
 
 Zadania skupiające się na nauce technik OSINT-owych, ale również poruszające zagadnienia kryptografii i digital forensic
 
-## 7. Inne Prace
+## 7. Sourcing Games
+
+Krótkie, interaktywne wyzwania wykorzystywane OSINT, które polegają na wyszukiwaniu konkretnych informacji w internecie przy użyciu otwartych źródeł. Celem jest sprawdzenie umiejętności w zakresie wyszukiwania, analizowania i weryfikowania danych dostępnych w źródłach jawno materiałowaych.
+
+## 8. Inne Prace
 
 - Praktycznie zadania z zakresu znajomości i wykorzystania protokołów sieciowych
 
